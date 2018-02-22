@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="welcomeText">Welcome to the\nContinue Grow With Google\nChallenge Scholarship:\nAndroid Basics</string>
+    <string name="quizAppText">Quiz App</string>
+    <string name="textStartQuiz">Start Quiz</string>
+
+    <string name="nextTextButton">Next</string>
+    <string name="previousTextButton">Previous</string>
+
+    <string name="question1">Question 1</string>
+    <string name="question2">Question 2</string>
+    <string name="question3">Question 3</string>
+    <string name="question4">Question 4</string>
+    <string name="question5">Question 5</string>
+    <string name="question6">Question 6</string>
+    <string name="question7">Question 7</string>
+    <string name="question8">Question 8</string>
+    <string name="question9">Question 9</string>
+    <string name="question10">Question 10</string>
+
+    <!-- Question 1 -->
+    <string name="text1of10">1/10</string>
+    <string name="question1Text">1. Which of the following are Types of Views?</string>
+    <string name="question1Text1">You can pick more than one answer</string>
+    <string name="textviewQuestion1">TextView</string>
+    <string name="imageviewQuestion1">ImageView</string>
+    <string name="intentQuestion1">Intent</string>
+    <string name="buttonQuestion1">Button</string>
+    <string name="progressBarValue1">10</string>
+
+    <!-- Question 2 -->
+    <string name="text2of10">2/10</string>
+    <string name="progressBarValue2">20</string>
+    <string name="question2Text">2. What does IDE means?</string>
+    <string name="question2Hint">Your answer here</string>
+
+    <!-- Question 3 -->
+    <string name="text3of10">3/10</string>
+    <string name="progressBarValue3">30</string>
+    <string name="question3Text">3. Which of the following definitions correspond to a LinearLayout?</string>
+
+    <!-- Question 4 -->
+    <string name="text4of10">4/10</string>
+    <string name="progressBarValue4">40</string>
+    <string name="question4Text">4. Which of the following definitions correspond to a RelativeLayout?</string>
+    <string name="radioButtonAns3">A layout that organizes its childern into a single horizontal or vertial row.</string>
+    <string name="radioButtonAns2">A user interface element that displays text to the user.</string>
+    <string name="radioButtonAns1">Enables you to specify the location of child objects relative to each other.</string>
+    <string name="radioButtonAns4">Displays image resources, for example Bitmap or Drawable resources.</string>
+
+    <!-- Question 5 -->
+    <string name="text5of10">5/10</string>
+    <string name="progressBarValue5">50</string>
+    <string name="question5Text">5. In a LinearLayout, what configuration of the following gets closer to the showing mockup below.</string>
+
+
+    <!-- Question 6 -->
+    <string name="text6of10">6/10</string>
+    <string name="progressBarValue6">60</string>
+    <string name="question6Text">6. Which of the following is the correct way to access a resource in code (Java)?</string>
+    <string name="radioButtonAns1Quest6">R.string.resourceName</string>
+    <string name="radioButtonAns2Quest6">R.string.MainActivity.resourceName</string>
+    <string name="radioButtonAns3Quest6">\@string/resourceName</string>
+    <string name="radioButtonAns4Quest6">string.R.string.resourceName</string>
+
+    <!-- Question 7 -->
+    <string name="text7of10">7/10</string>
+    <string name="progressBarValue7">70</string>
+    <string name="question7Text">7. Which of the following is the correct way to access a resource in XML?</string>
+    <string name="radioButtonAns5Quest6">\@string/resourceName/id</string>
+    <string name="radioButtonAns6Quest6">resourceName\@string</string>
+
+    <!-- Question 8 -->
+    <string name="text8of10">8/10</string>
+    <string name="progressBarValue8">80</string>
+    <string name="question8Text">8. How to pass the data between activities in Android?</string>
+    <string name="radioButtonAns1Quest8">Content Provider</string>
+    <string name="radioButtonAns2Quest8">Broadcast Receiver</string>
+    <string name="radioButtonAns3Quest8">Intent</string>
+    <string name="radioButtonAns4Quest8">None of the Above</string>
+
+    <!-- Question 9 -->
+    <string name="text9of10">9/10</string>
+    <string name="progressBarValue9">90</string>
+    <string name="question9Text">9. What is the difference between margin and padding in android layout?</string>
+    <string name="radioButtonAns1Quest9">Margin is specifying the extra space left on all four sides in layout.</string>
+    <string name="radioButtonAns2Quest9">Padding is used to offset the content of a view by specific px or dp.</string>
+    <string name="radioButtonAns3Quest9">IntentBoth A and B are correct.</string>
+    <string name="radioButtonAns4Quest9">None of the above.</string>
+
+
+    <!-- Question 10 -->
+    <string name="text10of10">10/10</string>
+    <string name="progressBarValue10">100</string>
+    <string name="question10Text">10. Where is the best place to Master the most competitive skills, Get hired by world–changing companies and take the chance to start a new career with the best instructors and the best learning environment?</string>
+    <string name="checkBoxUdacity">Udacity</string>
+    <string name="weight_0_0_0">Weight 0,0,0</string>
+    <string name="weight_1_1_0">Weight 1,1,0</string>
+    <string name="weight_3_3_3">Weight 3,3,3</string>
+
+</resources>

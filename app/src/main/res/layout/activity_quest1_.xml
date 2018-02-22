@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.quizapp.Quest1_Activity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin16dp"
+            android:layout_marginRight="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin16dp"
+            android:layout_weight="1"
+            android:text="@string/question1Text"
+            android:textSize="@dimen/textSizeQuestion"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin16dp"
+            android:layout_marginRight="@dimen/margin16dp"
+            android:layout_weight="1"
+            android:text="@string/question1Text1"
+            android:textSize="@dimen/textSizeQuestion2" />
+
+        <CheckBox
+            android:id="@+id/checkboxTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin16dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/paddingCheckBox"
+            android:text="@string/textviewQuestion1"
+            android:textSize="@dimen/textSizeAnswer" />
+
+        <CheckBox
+            android:id="@+id/checkboxImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin16dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/paddingCheckBox"
+            android:text="@string/imageviewQuestion1"
+            android:textSize="@dimen/textSizeAnswer" />
+
+        <CheckBox
+            android:id="@+id/checkboxIntent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin16dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/paddingCheckBox"
+            android:text="@string/intentQuestion1"
+            android:textSize="@dimen/textSizeAnswer" />
+
+        <CheckBox
+            android:id="@+id/checkboxButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin16dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/paddingCheckBox"
+            android:text="@string/buttonQuestion1"
+            android:textSize="@dimen/textSizeAnswer" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/marginTopButton"
+                android:text="@string/text1of10"
+                android:textSize="@dimen/textSizeAnswer" />
+
+            <Button
+                android:id="@+id/nextButton"
+                android:layout_width="@dimen/widthButton"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/marginButton"
+                android:layout_marginRight="@dimen/marginButton"
+                android:layout_marginTop="@dimen/marginTopButton"
+                android:onClick="nextQuestion"
+                android:text="@string/nextTextButton"
+                android:textSize="@dimen/textSizeButton" />
+
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/determinateBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/heightProgressBar"
+            android:layout_weight="0"
+            android:progress="@string/progressBarValue1"
+            android:progressBackgroundTint="@color/colorProgressBackgroundTint"
+            android:progressTint="@color/colorProgressTint" />
+
+
+    </LinearLayout>
+</ScrollView>

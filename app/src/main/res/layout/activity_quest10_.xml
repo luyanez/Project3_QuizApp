@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.quizapp.Quest10_Activity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin16dp"
+            android:layout_marginRight="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin16dp"
+            android:layout_weight="1"
+            android:text="@string/question10Text"
+            android:textSize="@dimen/textSizeQuestion"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/udacity1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin16dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/paddingCheckBox"
+            android:text="@string/checkBoxUdacity"
+            android:textSize="@dimen/textSizeAnswer" />
+
+        <CheckBox
+            android:id="@+id/udacity2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin16dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/paddingCheckBox"
+            android:text="@string/checkBoxUdacity"
+            android:textSize="@dimen/textSizeAnswer" />
+
+        <CheckBox
+            android:id="@+id/udacity3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin16dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/paddingCheckBox"
+            android:text="@string/checkBoxUdacity"
+            android:textSize="@dimen/textSizeAnswer" />
+
+        <CheckBox
+            android:id="@+id/udacity4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin16dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/paddingCheckBox"
+            android:text="@string/checkBoxUdacity"
+            android:textSize="@dimen/textSizeAnswer" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0">
+
+            <Button
+                android:id="@+id/previousButton"
+                android:layout_width="@dimen/widthButton"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginTopButton2"
+                android:layout_marginLeft="@dimen/marginButton"
+                android:layout_marginTop="@dimen/marginTopButton2"
+                android:text="@string/previousTextButton"
+                android:textSize="@dimen/textSizeButton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/marginTopButton2"
+                android:text="@string/text10of10"
+                android:textSize="@dimen/textSizeAnswer" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/endQuiz"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@color/colorProgressTint"
+            android:text="Submit Quiz" />
+
+
+    </LinearLayout>
+</ScrollView>

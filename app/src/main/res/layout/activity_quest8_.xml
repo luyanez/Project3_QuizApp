@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.quizapp.Quest8_Activity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin16dp"
+            android:layout_marginLeft="@dimen/margin16dp"
+            android:layout_marginRight="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin16dp"
+            android:layout_weight="0"
+            android:text="@string/question8Text"
+            android:textSize="@dimen/textSizeQuestion"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButton1Question8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin16dp"
+                android:text="@string/radioButtonAns1Quest8"
+                android:textSize="@dimen/textSizeAnswer" />
+
+            <RadioButton
+                android:id="@+id/radioButton2Question8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin16dp"
+                android:text="@string/radioButtonAns2Quest8"
+                android:textSize="@dimen/textSizeAnswer" />
+
+            <RadioButton
+                android:id="@+id/radioButton3Question8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin16dp"
+                android:text="@string/radioButtonAns3Quest8"
+                android:textSize="@dimen/textSizeAnswer" />
+
+            <RadioButton
+                android:id="@+id/radioButton4Question8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin16dp"
+                android:text="@string/radioButtonAns4Quest8"
+                android:textSize="@dimen/textSizeAnswer" />
+
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0">
+
+            <Button
+                android:layout_width="@dimen/widthButton"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginButton"
+                android:layout_marginLeft="@dimen/marginButton"
+                android:layout_marginTop="@dimen/marginTopButton"
+                android:onClick="previousQuestion"
+                android:text="@string/previousTextButton"
+                android:textSize="@dimen/textSizeButton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/marginTopButton"
+                android:text="@string/text8of10"
+                android:textSize="@dimen/textSizeAnswer" />
+
+            <Button
+                android:layout_width="@dimen/widthButton"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/marginButton"
+                android:layout_marginRight="@dimen/marginButton"
+                android:layout_marginTop="@dimen/marginTopButton"
+                android:onClick="nextQuestion"
+                android:text="@string/nextTextButton"
+                android:textSize="@dimen/textSizeButton" />
+
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/determinateBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/heightProgressBar"
+            android:layout_weight="0"
+            android:progress="@string/progressBarValue8"
+            android:progressBackgroundTint="@color/colorProgressBackgroundTint"
+            android:progressTint="@color/colorProgressTint" />
+
+
+    </LinearLayout>
+
+</ScrollView>

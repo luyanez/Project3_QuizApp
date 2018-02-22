@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#1b1b1b</color>
+    <color name="colorAccent">#616161</color>
+    <color name="colorTextPrimary">#6d6d6d</color>
+    <color name="colorProgressBackgroundTint">#d6d3d6</color>
+    <color name="colorProgressTint">#379237</color>
+    <color name="startQuiz">#53a153</color>
+</resources>

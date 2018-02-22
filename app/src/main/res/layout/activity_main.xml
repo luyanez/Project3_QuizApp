@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0"
+            android:gravity="center_horizontal"
+            android:text="@string/welcomeText"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/quizAppTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="0"
+            android:gravity="center_horizontal"
+            android:text="@string/quizAppText"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/workImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/work_small_res" />
+
+
+        <ImageView
+            android:id="@+id/udacityLogo"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="0"
+            android:src="@drawable/udacitylogo" />
+
+
+        <TextView
+            android:id="@+id/startQuiz"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@color/colorProgressTint"
+            android:text="@string/textStartQuiz" />
+
+    </LinearLayout>
+</ScrollView>
+
