@@ -19,7 +19,7 @@
             android:layout_marginTop="@dimen/margin16dp"
             android:layout_weight="1"
             android:text="@string/question10Text"
-            android:textSize="@dimen/textSizeQuestion"
+            android:textSize="@dimen/textSizeQuestion2"
             android:textStyle="bold" />
 
         <CheckBox
@@ -98,7 +98,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:background="@color/colorProgressTint"
-            android:text="Submit Quiz" />
+            android:text="@string/submit_quiz" />
 
 
     </LinearLayout>

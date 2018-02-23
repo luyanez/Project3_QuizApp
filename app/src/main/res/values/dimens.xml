@@ -2,9 +2,9 @@
 <resources>
     <dimen name="heightProgressBar">35dp</dimen>
     <dimen name="margin16dp">16dp</dimen>
-    <dimen name="textSizeAnswer">25sp</dimen>
+    <dimen name="textSizeAnswer">20sp</dimen>
     <dimen name="textSizeAnswer2">18sp</dimen>
-    <dimen name="textSizeQuestion">30sp</dimen>
+    <dimen name="textSizeQuestion">25sp</dimen>
     <!-- Height of each list item -->
     <dimen name="list_item_height">55dp</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->
@@ -14,10 +14,19 @@
     <dimen name="paddingCheckBox">5dp</dimen>
     <dimen name="marginTopButton">80dp</dimen>
     <dimen name="marginButton">16dp</dimen>
-    <dimen name="widthButton">150dp</dimen>
+    <dimen name="widthButton">120dp</dimen>
     <dimen name="textSizeButton">20sp</dimen>
-    <dimen name="textSizeQuestion2">23sp</dimen>
+    <dimen name="textSizeQuestion2">20sp</dimen>
     <dimen name="answerQuestion2TextSize">20sp</dimen>
     <dimen name="topMarginQuestionXofN">10dp</dimen>
     <dimen name="marginTopButton2">10dp</dimen>
+    <dimen name="mainTextSize">25sp</dimen>
+    <dimen name="marginLeftMainTitle">10dp</dimen>
+    <dimen name="marginSizeQuizApp">5dp</dimen>
+    <dimen name="heightImageMain">200dp</dimen>
+    <dimen name="marginImageMain">10dp</dimen>
+    <dimen name="heightUdacityMain">60dp</dimen>
+    <dimen name="margin12dp">12dp</dimen>
+    <dimen name="heightImageQuest5">120dp</dimen>
+    <dimen name="margin5dp">5dp</dimen>
 </resources>

@@ -31,7 +31,7 @@
                 android:id="@+id/radioButton1Question9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/margin16dp"
+                android:layout_margin="@dimen/margin12dp"
                 android:text="@string/radioButtonAns1Quest9"
                 android:textSize="@dimen/textSizeAnswer2" />
 
@@ -39,7 +39,7 @@
                 android:id="@+id/radioButton2Question9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/margin16dp"
+                android:layout_margin="@dimen/margin12dp"
                 android:text="@string/radioButtonAns2Quest9"
                 android:textSize="@dimen/textSizeAnswer2" />
 
@@ -47,7 +47,7 @@
                 android:id="@+id/radioButton3Question9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/margin16dp"
+                android:layout_margin="@dimen/margin12dp"
                 android:text="@string/radioButtonAns3Quest9"
                 android:textSize="@dimen/textSizeAnswer2" />
 
@@ -55,7 +55,7 @@
                 android:id="@+id/radioButton4Question9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/margin16dp"
+                android:layout_margin="@dimen/margin12dp"
                 android:text="@string/radioButtonAns4Quest9"
                 android:textSize="@dimen/textSizeAnswer2" />
 
@@ -71,7 +71,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/marginButton"
                 android:layout_marginLeft="@dimen/marginButton"
-                android:layout_marginTop="@dimen/marginTopButton"
                 android:onClick="previousQuestion"
                 android:text="@string/previousTextButton"
                 android:textSize="@dimen/textSizeButton" />
@@ -80,7 +79,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="@dimen/marginTopButton"
                 android:text="@string/text9of10"
                 android:textSize="@dimen/textSizeAnswer" />
 
@@ -90,7 +88,6 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginBottom="@dimen/marginButton"
                 android:layout_marginRight="@dimen/marginButton"
-                android:layout_marginTop="@dimen/marginTopButton"
                 android:onClick="nextQuestion"
                 android:text="@string/nextTextButton"
                 android:textSize="@dimen/textSizeButton" />

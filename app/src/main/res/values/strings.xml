@@ -97,5 +97,7 @@
     <string name="weight_0_0_0">Weight 0,0,0</string>
     <string name="weight_1_1_0">Weight 1,1,0</string>
     <string name="weight_3_3_3">Weight 3,3,3</string>
+    <string name="EndQuizApp">End Quiz App</string>
+    <string name="submit_quiz">Submit Quiz</string>
 
 </resources>

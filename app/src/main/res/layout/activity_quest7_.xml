@@ -71,7 +71,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/marginButton"
                 android:layout_marginLeft="@dimen/marginButton"
-                android:layout_marginTop="@dimen/marginTopButton"
                 android:onClick="previousQuestion"
                 android:text="@string/previousTextButton"
                 android:textSize="@dimen/textSizeButton" />
@@ -80,7 +79,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="@dimen/marginTopButton"
                 android:text="@string/text7of10"
                 android:textSize="@dimen/textSizeAnswer" />
 
@@ -90,7 +88,6 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginBottom="@dimen/marginButton"
                 android:layout_marginRight="@dimen/marginButton"
-                android:layout_marginTop="@dimen/marginTopButton"
                 android:onClick="nextQuestion"
                 android:text="@string/nextTextButton"
                 android:textSize="@dimen/textSizeButton" />

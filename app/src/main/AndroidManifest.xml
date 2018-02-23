@@ -50,7 +50,7 @@
             android:label="@string/question10" />
         <activity
             android:name=".EndQuizActivity"
-            android:label="End Quiz App"></activity>
+            android:label="@string/EndQuizApp"></activity>
     </application>
 
 </manifest>

@@ -13,32 +13,32 @@
             android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginLeft="@dimen/marginLeftMainTitle"
+            android:layout_marginRight="@dimen/marginLeftMainTitle"
+            android:layout_marginTop="@dimen/marginLeftMainTitle"
             android:layout_weight="0"
             android:gravity="center_horizontal"
             android:text="@string/welcomeText"
-            android:textSize="28sp" />
+            android:textSize="@dimen/mainTextSize" />
 
         <TextView
             android:id="@+id/quizAppTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="@dimen/marginSizeQuizApp"
             android:layout_weight="0"
             android:gravity="center_horizontal"
             android:text="@string/quizAppText"
-            android:textSize="28sp"
+            android:textSize="@dimen/mainTextSize"
             android:textStyle="bold" />
 
 
         <ImageView
             android:id="@+id/workImage"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_height="@dimen/heightImageMain"
+            android:layout_marginLeft="@dimen/marginImageMain"
+            android:layout_marginRight="@dimen/marginImageMain"
             android:layout_weight="1"
             android:scaleType="centerCrop"
             android:src="@drawable/work_small_res" />
@@ -47,7 +47,7 @@
         <ImageView
             android:id="@+id/udacityLogo"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="@dimen/heightUdacityMain"
             android:layout_weight="0"
             android:src="@drawable/udacitylogo" />
 

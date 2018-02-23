@@ -13,18 +13,18 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin16dp"
+            android:layout_marginBottom="@dimen/margin5dp"
             android:layout_marginLeft="@dimen/margin16dp"
             android:layout_marginRight="@dimen/margin16dp"
             android:layout_marginTop="@dimen/margin16dp"
             android:layout_weight="0"
             android:text="@string/question5Text"
-            android:textSize="22sp"
+            android:textSize="@dimen/textSizeQuestion2"
             android:textStyle="bold" />
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="120dp"
+            android:layout_height="@dimen/heightImageQuest5"
             android:layout_weight="1"
             android:src="@drawable/layoutweight" />
 
@@ -37,7 +37,7 @@
                 android:id="@+id/radioButton1Question5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/margin16dp"
+                android:layout_margin="@dimen/margin12dp"
                 android:text="@string/weight_0_0_0"
                 android:textSize="@dimen/textSizeAnswer2" />
 
@@ -45,7 +45,7 @@
                 android:id="@+id/radioButton2Question5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/margin16dp"
+                android:layout_margin="@dimen/margin12dp"
                 android:text="@string/weight_1_1_0"
                 android:textSize="@dimen/textSizeAnswer2" />
 
@@ -53,7 +53,7 @@
                 android:id="@+id/radioButton3Question5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/margin16dp"
+                android:layout_margin="@dimen/margin12dp"
                 android:text="@string/weight_3_3_3"
                 android:textSize="@dimen/textSizeAnswer2" />
 
@@ -69,7 +69,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/marginButton"
                 android:layout_marginLeft="@dimen/marginButton"
-                android:layout_marginTop="@dimen/marginTopButton2"
                 android:onClick="previousQuestion"
                 android:text="@string/previousTextButton"
                 android:textSize="@dimen/textSizeButton" />
@@ -78,7 +77,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="@dimen/marginTopButton2"
                 android:text="@string/text5of10"
                 android:textSize="@dimen/textSizeAnswer" />
 
@@ -88,7 +86,6 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginBottom="@dimen/marginButton"
                 android:layout_marginRight="@dimen/marginButton"
-                android:layout_marginTop="@dimen/marginTopButton2"
                 android:onClick="nextQuestion"
                 android:text="@string/nextTextButton"
                 android:textSize="@dimen/textSizeButton" />
